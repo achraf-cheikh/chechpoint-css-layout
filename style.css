@@ -19,6 +19,7 @@ nav{
     height: 110px;
 }
 li{
+    list-style: none;
     display: inline;
     font-family: "roboto" ,Arial, sans-serif ;
     font-size: 15px;
@@ -29,10 +30,13 @@ li{
     margin: 10px;
     color: #ABABAB;
 }
-li:hover{
+#green{
     color: #00b39b;
 }
-
+li:hover{
+    color: #00b39b;
+    cursor: pointer;
+}
 #logoo{
     width: 70px;
     height: 60px;
@@ -159,7 +163,7 @@ option{
     height: 157px;
     font-family: "work sans", Arial, sans-serif;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 26px;
     line-height: 34px;
     color: #00b39b;
 }
